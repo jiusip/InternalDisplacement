@@ -80,7 +80,7 @@ function drawScale() {
 }
 
 function drawTitleAndSubtext() {
-  let titleText = "Internal displacements by conflict and violence around the world";
+  let titleText = "INTERNAL DISPLACEMENTS BY CONFLICT AND VIOLENCE AROUND THE WORLD";
   let titleX = 30;
   let titleY = 30;
   let titleSize = width / 32;

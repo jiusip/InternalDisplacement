@@ -12,11 +12,11 @@ let cellWidth, cellHeight;
 let rowSpacing = 7;
 
 function preload() {
-  table = loadTable('/data.csv', 'csv', 'header');
-  GT = loadFont('/GT.otf');
-  Thin = loadFont('/Thin.otf');
-  ThinItalic = loadFont('/ThinItalic.otf');
-  Light = loadFont('/Light.otf');
+  table = loadTable('data.csv', 'csv', 'header');
+  GT = loadFont('GT.otf');
+  Thin = loadFont('Thin.otf');
+  ThinItalic = loadFont('ThinItalic.otf');
+  Light = loadFont('Light.otf');
 
   figure = createGraphics(50, 125);
   figure.noStroke();

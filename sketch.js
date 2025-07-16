@@ -13,10 +13,10 @@ let rowSpacing = 7;
 
 function preload() {
   table = loadTable('data.csv', 'csv', 'header');
-  GT = loadFont('GT.otf');
-  Thin = loadFont('Thin.otf');
-  ThinItalic = loadFont('ThinItalic.otf');
-  Light = loadFont('Light.otf');
+  GT = loadFont('GT.ttf');
+  Thin = loadFont('Thin.ttf');
+  ThinItalic = loadFont('ThinItalic.ttf');
+  Light = loadFont('Light.ttf');
 
   figure = createGraphics(50, 125);
   figure.noStroke();
